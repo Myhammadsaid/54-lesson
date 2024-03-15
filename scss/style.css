@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+body {
+  background: linear-gradient(to right, black 50%, #57b8ff 50%);
+  margin-top: 100px;
+}
+body .wrapper {
+  width: 700px;
+  height: 100%;
+  background: white;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+body .wrapper .wrapper-style {
+  padding: 30px;
+}
+body .wrapper .wrapper-style .wrapper-text {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+body .wrapper .wrapper-style .form2 .wrapper-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+body .wrapper .wrapper-style .form2 .wrapper-form .inputname {
+  width: 250px;
+  border: none;
+  background: rgba(128, 128, 128, 0.253);
+  padding: 15px;
+  margin-top: 5px;
+}
+body .wrapper .wrapper-style .form2 .wrapper-form .inputemail {
+  margin-top: 5px;
+  width: 250px;
+  border: none;
+  background: rgba(128, 128, 128, 0.253);
+  padding: 15px;
+}
+body .wrapper .wrapper-style .form2 .inputwebsite {
+  width: 100%;
+  margin-top: 5px;
+  border: none;
+  background: rgba(128, 128, 128, 0.253);
+  padding: 15px;
+  margin-bottom: 20px;
+}
+body .wrapper .wrapper-style .form2 .textarea {
+  margin-top: 5px;
+  outline: none;
+  background: rgba(128, 128, 128, 0.253);
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+body .wrapper .wrapper-style .form2 .wrapper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: inherit;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body .wrapper .wrapper-style .form2 .wrapper-btn:hover {
+  background: black;
+  color: white;
+}
+body .account {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+body .account .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+body .account .cards .card {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 30px;
+  font-weight: 700;
+}
+body .account .cards .card .elips {
+  margin: 0 auto;
+  background: gray;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+body .account .cards .card .name {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+body .account .cards .card .email {
+  color: gray;
+  text-align: center;
+  margin-bottom: 10px;
+}
+body .account .cards .card .website {
+  color: gray;
+  text-align: center;
+  margin-bottom: 10px;
+}
+body .account .cards .card .card-comment {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+body .account .cards .card .card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100px;
+  padding: 10px 20px;
+  background: inherit;
+  border-radius: 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body .account .cards .card .card-btn:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 730px) {
+  .wrapper-style {
+    padding: 0 !important;
+  }
+  .wrapper {
+    width: 500px !important;
+  }
+  .from1 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 510px) {
+  .wrapper {
+    width: 300px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
